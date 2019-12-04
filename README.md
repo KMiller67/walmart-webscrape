@@ -1,2 +1,4 @@
 # Walmart_Webscrape
-Web scraping script using Python's BeautifulSoup package to scrape Walmart clearance electronics products, current price, old price, and the amount of the discount.
+Web scraping script using Python's BeautifulSoup package to scrape Walmart clearance electronics products, current price, old price, and the amount of the discount. The script will produce a .csv file with the products and corresponding information listed.
+
+NOTE: When I originally made the script I was able to loop through each page of the clearance electronics section and pull information for each item listed on each page. It appears that the HTML for the site changed a little since that time however so I had to edit the code prior to posting. The script still loops through each page, however it appears to only pull the first ten items from each page and I'm unsure how to fix this at this time. I tried using the three different HTML parsers available within the BeautifulSoup package but none of them made a difference. If anyone knows a solution please let me know and I'll update the script accordingly. Enjoy!
